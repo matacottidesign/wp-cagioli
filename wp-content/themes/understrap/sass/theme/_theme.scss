@@ -1,1 +1,10 @@
 // This is an empty scss file for your custom styles - Please add your super duper awesome mega design styles here
+body{
+    padding: 0;
+    margin: 0;
+    font-family: $font-stack;
+    background: $white;
+    font-size: 14px;
+    line-height: 25px;
+    color: $secondary;
+}
