@@ -164,7 +164,7 @@ body{
             div{
                 &.car-img1{
                     background: url('../../img/carousel1.jpg');
-                    @include carousel-image;  
+                    @include carousel-image; 
                 }
 
                 &.car-img2{
