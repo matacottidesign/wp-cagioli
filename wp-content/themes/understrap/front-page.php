@@ -62,33 +62,10 @@ get_header();
         </div>
         
     </div>
-        
-
     
+    <!--===============================================================================================================-->
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <section class="py-8">       
+    <section>       
         <div class="container">
             <!--testo iniziale-->
             <?php the_content(); ?>
@@ -98,14 +75,8 @@ get_header();
         </div>
     </section>
 
-    <!--video presentazione--> 
-    <?php get_template_part('global-templates/video'); ?>
-
-    <!--servizi e attività--> 
-    <?php get_template_part('global-templates/servizi'); ?>
-
-    <!--chi siamo--> 
-    <?php get_template_part('global-templates/chi-siamo'); ?>
+    <!--CARD GROUP - HOME PAGE--> 
+    <?php get_template_part('global-templates/card-group'); ?>
 
 <?php endwhile; ?>
 
