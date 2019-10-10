@@ -44,6 +44,10 @@
 
         ?>
     </div>
+
+    <div class="pt-3 text-right pb-8">
+        <a href="#">Vedi tutti i trattamenti ></a>
+    </div>
 </div>
 
 

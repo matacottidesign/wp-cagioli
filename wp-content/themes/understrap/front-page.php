@@ -69,14 +69,18 @@ get_header();
         <div class="container">
             <!--testo iniziale-->
             <?php the_content(); ?>
-
-            <!--loghi clienti-->
-            <?php get_template_part('global-templates/clienti'); ?>
         </div>
     </section>
 
     <!--CARD GROUP - HOME PAGE--> 
     <?php get_template_part('global-templates/card-group'); ?>
+
+    <!--BANNER - HOME PAGE-->
+    <?php get_template_part('global-templates/banner'); ?>
+
+    <!--STAFF E COLLABORATORI-->
+    <?php get_template_part('global-templates/staff'); ?>
+
 
 <?php endwhile; ?>
 

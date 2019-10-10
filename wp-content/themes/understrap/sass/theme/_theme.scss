@@ -226,29 +226,32 @@ body{
         }
     }
 
-    .banner{
-        height: 250px;
-        background-position: center;
-        background-repeat: no-repeat; 
-        background-image: url("../../img/banner-home.jpg");
-
-        div{
-            p{
-                color: $white;
-                font-size: 18px;
-            }
-            button{
-                background-color: $white;
-                
-                a{
-                    color: $primary;
-                }
-                a:hover{
+    div{
+        &.banner{
+            height: 250px;
+            background-position: center;
+            background-repeat: no-repeat;  
+            // background-image: url("../../img/banner-home.jpg") !important;
+            background-color: #00bba6 !important;
+    
+            div{
+                p{
                     color: $white;
+                    font-size: 18px;
                 }
-            }
-            button:hover{
-                background-color: $primary;
+                button{
+                    background-color: $white;
+                    
+                    a{
+                        color: $primary;
+                    }
+                    a:hover{
+                        color: $white;
+                    }
+                }
+                button:hover{
+                    background-color: $primary;
+                }
             }
         }
     }
