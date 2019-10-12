@@ -84,6 +84,9 @@ get_header();
     <!--LO STUDIO-->
     <?php get_template_part('global-templates/studio'); ?>
 
+    <!--BOTTOM BANNER-->
+    <?php get_template_part('global-templates/bottom-banner'); ?>
+
 
 <?php endwhile; ?>
 
