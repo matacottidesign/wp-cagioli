@@ -1,13 +1,13 @@
 <div class="container pt-8">
     <div class="row">
-        <div class="col-12 col-sm-8">
+        <div class="col-12 col-lg-8">
 
             <h4 class="pb-3"><i><?php the_field('titolo_staff'); ?></i></h4>
 
             <?php the_field('descrizione_staff'); ?>
 
         </div>
-        <div class="col-12 col-sm-4">
+        <div class="col-12 col-lg-4">
             <div class="d-flex justify-content-center align-items-center">
 
                 <?php 

@@ -81,6 +81,9 @@ get_header();
     <!--STAFF E COLLABORATORI-->
     <?php get_template_part('global-templates/staff'); ?>
 
+    <!--LO STUDIO-->
+    <?php get_template_part('global-templates/studio'); ?>
+
 
 <?php endwhile; ?>
 
