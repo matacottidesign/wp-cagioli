@@ -79,10 +79,10 @@ get_header();
     <?php get_template_part('global-templates/banner'); ?>
 
     <!--STAFF E COLLABORATORI-->
-    <?php get_template_part('global-templates/staff'); ?>
+    <?php get_template_part('global-templates/lo-staff'); ?>
 
     <!--LO STUDIO-->
-    <?php get_template_part('global-templates/studio'); ?>
+    <?php get_template_part('global-templates/lo-studio'); ?>
 
     <!--BOTTOM BANNER-->
     <?php get_template_part('global-templates/bottom-banner'); ?>
