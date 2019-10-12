@@ -15,7 +15,7 @@
             <?php 
             $image = get_field('immagine_urgenze');
             if( !empty( $image ) ): ?>
-                <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" width="130px" />
+                <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" height="130px" />
             <?php endif; ?>
 
         </div>
@@ -37,7 +37,7 @@
             <?php 
             $image = get_field('immagine_convenzioni');
             if( !empty( $image ) ): ?>
-                <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" width="130px" />
+                <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" width="180px" />
             <?php endif; ?>
 
         </div>
