@@ -1,4 +1,4 @@
-<div class="container pt-8">
+<div class="container py-8">
     <div class="card-deck">
 
         <?php if( have_rows('card_servizi') ): ?>
@@ -45,7 +45,7 @@
         ?>
     </div>
 
-    <div class="pt-3 text-right pb-8">
+    <div class="pt-3 text-right">
         <a href="#">Vedi tutti i trattamenti ></a>
     </div>
 </div>

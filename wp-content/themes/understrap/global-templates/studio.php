@@ -74,6 +74,7 @@
             endif;
 
         ?>
+    </div>
+    <div class="text-right"><a href="#">Vedi il nostro studio &gt;</a></div>
 </div>
 
-<div class="pt-3 text-right"><a href="#">Vedi il nostro studio &gt;</a></div>
