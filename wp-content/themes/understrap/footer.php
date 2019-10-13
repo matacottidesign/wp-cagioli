@@ -36,7 +36,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 						</p>
 						</div>
 						<div class="col-12 col-md-8">
-							<p>Google Maps</p>
+						<iframe class="w-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2979.2117370635588!2d12.777842615699068!3d41.69436457923723!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132582c0d0a12ddd%3A0xe34fc09c6f8a88d!2sVia%20Lata%2C%20217%2C%2000049%20Velletri%20RM!5e0!3m2!1sit!2sit!4v1570977083111!5m2!1sit!2sit" height="250px" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
 						</div> 
 					</div>
 				</div>
