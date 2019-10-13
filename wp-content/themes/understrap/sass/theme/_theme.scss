@@ -68,7 +68,6 @@ body{
         border-radius: 0 !important; 
     }
 
-
     div{
         nav{
             section{
@@ -394,5 +393,11 @@ body{
             border: 1px solid $primary !important;
             color: $primary !important;
         }
+    }
+}
+
+.urgenza{
+    a{
+        color: red !important;
     }
 }

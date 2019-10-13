@@ -122,7 +122,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                             </div>
                         </div>
                         <div class="col-12 col-sm-4 d-flex justify-content-center align-items-center">
-                            <img src="assets/img/talk-icon.svg" alt="chat-icon" width="130px">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/talk-icon.svg" alt="convenction-icons" width="130px">
                         </div>
                     </div>
                 </div>
