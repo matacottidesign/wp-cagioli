@@ -46,7 +46,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                             <h4><i><?php the_field('titolo_trattamenti'); ?></i></h4>
                             <?php the_field('descrizione_trattamenti'); ?>
                         </div>
-                        <div class="col-12 col-sm-4 d-flex justify-content-center align-items-center">
+                        <div class="col-12 col-md-4 d-flex justify-content-center align-items-center">
                             <img src="<?php echo get_template_directory_uri(); ?>/img/staff-icon.svg" alt="convenction-icons" width="100px">
                         </div>
                     </div>
