@@ -91,7 +91,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
                 </div>
 
-
+                <hr> 
                 <div class="container py-4">
                     <div class="row">
                         <div class="col-12 col-sm-8">

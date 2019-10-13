@@ -57,6 +57,12 @@ body{
         color: $dark;
     }
 
+    .urgenza{
+        a{
+            color: red !important;
+        }
+    }
+
     a{
         text-decoration: none !important;
     }
@@ -107,6 +113,13 @@ body{
                 div{
                     ul{
                         li{
+
+                            &.urgenza{
+                                a{
+                                    color: red !important;
+                                }
+                            }
+
                             a{
                                 color: $secondary !important;
                                 position: sticky !important;
@@ -132,10 +145,6 @@ body{
                                 &.nav-link:hover{
                                     color: $primary !important;
                                     display: inline-block !important;
-                                }
-
-                                &#urgenza{
-                                    color: $red !important;
                                 }
                             }
                         }
@@ -393,11 +402,5 @@ body{
             border: 1px solid $primary !important;
             color: $primary !important;
         }
-    }
-}
-
-.urgenza{
-    a{
-        color: red !important;
     }
 }

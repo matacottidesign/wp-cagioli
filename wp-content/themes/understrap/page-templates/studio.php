@@ -31,7 +31,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
                 <?php while ( have_posts() ) : the_post(); ?>
 
-                <div class="space-menu"></div>
+                <section class="top-space"></section>
 
                 <!--CONTENUTO INIZIALE-->
                 <div class="container">
