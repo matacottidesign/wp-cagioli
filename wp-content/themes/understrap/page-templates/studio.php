@@ -120,7 +120,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                         </div>
                         <div class="col-12 col-sm-4">
                             <div class="d-flex justify-content-center align-items-center">
-                                <img src="../img/convenzioni.png" alt="convenction-icons" width="180px">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/convenzioni.png" alt="convenction-icons" width="180px">
                             </div>
                         </div>
                     </div>

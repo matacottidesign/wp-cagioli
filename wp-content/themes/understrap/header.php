@@ -30,10 +30,21 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 		<a class="skip-link sr-only sr-only-focusable" href="#content"><?php esc_html_e( 'Skip to content', 'understrap' ); ?></a>
 
-		<nav class="navbar navbar-expand-md navbar-dark bg-primary">
+		<div class="fixed-top">
+
+		<!--FIRST NAVBAR-->
+		<nav class="navbar navbar-expand-lg bg-primary">
+			<section class="container d-flex justify-content-md-end">
+				<p class="pr-2">Prenota ora la tua visita</p>
+				<button type="button" class="btn btn-light tel-cagioli"><a href="tel:0696155221">06 - 961 55 221</a></button>
+			</section>
+		</nav>
+
+		<!--SECOND NAVBAR-->
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
 
 		<?php if ( 'container' == $container ) : ?>
-			<div class="container">
+			<div class="container py-1">
 		<?php endif; ?>
 
 					<!-- Your site title as branding in the menu -->
@@ -45,7 +56,9 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 						<?php else : ?>
 
-							<a class="navbar-brand" rel="home" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" itemprop="url"><?php bloginfo( 'name' ); ?></a>
+							<a href="http://localhost:8888/wp-cagioli/">
+								<img class="pr-5" src="<?php echo get_template_directory_uri(); ?>/img/logo.svg" width="280px" alt="logo-studio-cagiolipepperosa" />
+							</a>
 
 						<?php endif; ?>
 
@@ -62,9 +75,9 @@ $container = get_theme_mod( 'understrap_container_type' );
 				<?php wp_nav_menu(
 					array(
 						'theme_location'  => 'primary',
-						'container_class' => 'collapse navbar-collapse',
+						'container_class' => 'collapse navbar-collapse justify-content-end',
 						'container_id'    => 'navbarNavDropdown',
-						'menu_class'      => 'navbar-nav ml-auto',
+						'menu_class'      => 'navbar-nav',
 						'fallback_cb'     => '',
 						'menu_id'         => 'main-menu',
 						'depth'           => 2,
@@ -76,5 +89,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 			<?php endif; ?>
 
 		</nav><!-- .site-navigation -->
+
+		</div>
 
 	</div><!-- #wrapper-navbar end -->
