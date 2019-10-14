@@ -59,7 +59,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                     <div class="row">
                         <div class="col-12 col-lg-4">
                             <?php the_field('descrizione3_contatti'); ?>         
-                        </div>
+                        </div> 
                         <div class="col-12 col-lg-8">
                             <?php the_field('modulo_contatti'); ?>
                         </div>

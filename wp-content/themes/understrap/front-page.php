@@ -69,7 +69,7 @@ get_header();
         <div class="container">
             <!--testo iniziale-->
             <?php the_content(); ?>
-        </div>
+        </div> 
     </section>
 
     <!--CARD GROUP - HOME PAGE--> 

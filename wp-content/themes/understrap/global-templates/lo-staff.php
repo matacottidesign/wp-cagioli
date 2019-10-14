@@ -59,5 +59,5 @@
         ?>
 
     </div>
-    <div class="pt-3 text-right pb-8"><a href="#">Vedi il nostro staff &gt;</a></div>
+    <div class="pt-3 text-right pb-8"><a href="http://localhost:8888/wp-cagioli/staff/">Vedi il nostro staff &gt;</a></div>
 </div>

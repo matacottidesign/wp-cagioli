@@ -75,6 +75,6 @@
 
         ?>
     </div>
-    <div class="text-right"><a href="#">Vedi il nostro studio &gt;</a></div>
+    <div class="text-right"><a href="http://localhost:8888/wp-cagioli/studio/">Vedi il nostro studio &gt;</a></div>
 </div>
 

@@ -6,7 +6,7 @@
             <h4 class="pb-3"><i><?php the_field('titolo_urgenze'); ?></i></h4>
             <p><?php the_field('descrizione_urgenze'); ?></p>
             <button type="button" class="btn btn-danger">
-                <a href="te.3482221100">CHIAMA PER URGENZA</a>
+                <a href="tel:3482221100">CHIAMA PER URGENZA</a>
             </button>
         </div>
 
