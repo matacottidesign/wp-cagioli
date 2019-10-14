@@ -239,8 +239,7 @@ body{
             height: 250px;
             background-position: center;
             background-repeat: no-repeat;  
-            // background-image: url("../../img/banner-home.jpg") !important;
-            background-color: #00bba6 !important;
+            background-image: url("<?php echo get_template_directory_uri(); ?>/../../img/banner-home.jpg") !important;
     
             div{
                 p{
