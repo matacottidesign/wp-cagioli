@@ -15,8 +15,7 @@
 // keep a max width in case it is just the form and nothing else
 // we do not want a form spanning whole page
 .wpcf7 {
-  width: 100% !important;
-  margin: 0 auto !important;
+   
 
   // all inputs except radios and checkboxes inherit from form-control
   input[type=text],
@@ -70,4 +69,24 @@
     color: theme-color("danger");
     border: 1px solid $gray-200;
   }
+}
+
+label{  
+  color: $primary;
+}
+
+input{ 
+  border-color: $primary !important; 
+}
+
+select{
+  border-color: $primary !important;
+}
+
+textarea{
+  border-color: $primary !important;
+}
+
+::placeholder {
+  color: $gray-400 !important;
 }
